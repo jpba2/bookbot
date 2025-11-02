@@ -6,4 +6,5 @@ def get_num_words(filepath):
         print(f"Found {word_count} total words")
     return 
 
+get_num_words("/books/misc.txt")
 get_num_words("/books/frankenstein.txt")
